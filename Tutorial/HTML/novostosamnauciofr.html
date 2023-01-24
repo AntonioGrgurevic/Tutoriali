@@ -27,6 +27,7 @@ ctrl+y        is to redo
 windows key   for windows(logic)and quicker search bar
 ctrl+t        is for a new tab
 ctrl+?        is to put in a comment
+ctrl+a        is to select everything
 -->
 <p>I am cool</p>
 <!--p is a line of text grouped together-->
@@ -74,3 +75,34 @@ ctrl+?        is to put in a comment
 <!--Label is basically <p> you enter text in code that will be displayed in the form and input is used for as its name says creating user inputs like for example: color,password,normal text...-->
 <textarea name="" id="" cols="30" rows="10"></textarea>
 <!--text area is some sort of a box where you can type text duh and cols(columns) are where you edit the width of your text box and rows are where you edit the height of the box-->
+<style></style>
+<!--This tag is used for styling html without an additional .css file-->
+<style>
+  body{
+background-color: aqua;
+  }
+
+  hr{
+    border-style: dotted;
+  }
+</style>
+<!--For example to edit an entire body you have to put it under the style tag andthen you can make it howeveryou want -->
+<!--You can also change the look of your hr tag for example you can change the style to be dotted-->
+<!--When changing borders one value applies to all four sides.
+When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise)
+You can also change one part for example border-top style -->
+<h1 class="header 1">Bok cao bidzibao</h1>
+<!--Class is a attribute that you can add to almost every tag that can change the look of that tag and you
+use it by putting class="" inside your open tag like in this example of h1-->
+<!--class is better used for a group of tags for example a group of p(paragraphs)-->
+<!--You can also have multiple classes inside a single class for example:  <p class="p1 p2">
+  And in css you can put a .p1{} and another .p2{} and both of them will change the same paragraph-->
+
+<h2 id="header 2">Cao bidzibaoooooooooooo bok</h1>
+<!--id is used for a more specific tag and you cant have 2 ids with the same name-->
+<!--id is more specific than a class attribute-->
+<!--Class and id are more specific so if you for example have a h1{color: blue;}
+  but in html you have <h1 class="title"> the program will select the id or class attribute
+    because it is more specific than a standard h1 element-->

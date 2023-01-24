@@ -1,0 +1,27 @@
+hr{
+    border-style: dotted;
+  }
+/*For example to edit an entire body you have to put it under the style tag andthen you can make it howeveryou want 
+You can also change the look of your hr tag for example you can change the style to be dotted
+When changing borders one value applies to all four sides.
+When two values are specified, the first style applies to the top and bottom, the second to the left and right.
+When three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom.
+When four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise)
+You can also change one part for example border-top style*/
+
+.class{
+    background-color: blue;
+   }
+   /*Class is a attribute that is used in css for changing a specific tag and you use it by puting a dot before 
+   the class name*/
+   
+#id{
+    background-color: red;
+}
+/*To use an id you have to put a #(hashtag) and then write your id name after the # it should look like this
+#idname{} */
+
+.img{
+    border-radius: 50%;
+}
+/*You can use border radius to change a shape of an image*/
