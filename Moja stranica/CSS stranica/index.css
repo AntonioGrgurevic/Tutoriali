@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 0 auto;
+  position: relative;
+  color: red;
+}
+
+.top-container {
+  background-image: url("../Pictures/firecircle.jpg");
+}
+.bird {
+  position: relative;
+  bottom: 500px;
+  width: 2000px;
+  height: 2000px;
+  left: 150px;
+}
+
+.gram {
+  text-decoration: underline;
+  color: red;
+}
+.bot-cloud {
+  position: absolute;
+}
+.sound {
+  position: relative;
+  margin: 0;
+  bottom: 1200px;
+  right: 1050px;
+}
+.mtxt {
+  font-size: 200%;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  bottom: 400px;
+  left: 925px;
+  top: 760px;
+}

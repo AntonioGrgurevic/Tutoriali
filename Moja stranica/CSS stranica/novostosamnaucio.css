@@ -52,3 +52,54 @@ div{
     margin: 20px;
 }
 /*margin is space outside your element*/
+p{
+    text-decoration: underline;
+}
+/*text decoration is used to as it's name says decorate a text. For example we can underline our text.*/
+a{
+    display: inline;
+}
+/*display is an element which is used to define the display of an element. For example inline will put text in a line but you can't modify it's width, but if you
+put it in a block than you can modify it but they won't be in a straight line */
+a{
+    display: inline-block;
+}
+/*display inline-block will put your text in a straight line but you can still modify it as a block*/
+h1{
+    display: none;
+}
+/*display none will get rid of your element*/
+h2{
+    visibility: hidden;
+    visibility: visible;
+}
+/*visibility is an element which is used to make a certain element visible or hidden.
+If you put hidden your text will simply be invisible and there will be space in place of your element and other elements won't move because it still exists thereit is only hidden*/
+div{
+    position: fixed;
+    position: relative;
+    position:static;
+    position: absolute;
+    position: sticky;
+}
+/*position specifies the method used for positioning an element*/
+/*
+static is the default position
+relative is used to position an element from it's normal position. Relative will also leave a invisible block from where you moved your block so
+that others won't collide and move in it's place
+fixed means that your element will stay in the same place even if you scroll your page
+sticky is positioned based on the user's scroll position. It will move with the scroll wheel
+*/
+div{
+    position: relative;
+}
+img{
+    position: absolute;
+    right: 20px;
+}
+/*absolute is positioned relative to the parent. For example if you have a img inside a div(in html)the image will move according to your div
+Here the image will move right inside your div*/
+body{
+    text-align: center;
+}
+/*text-allign is used to move your text*/
