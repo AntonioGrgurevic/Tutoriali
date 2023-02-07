@@ -103,3 +103,9 @@ body{
     text-align: center;
 }
 /*text-allign is used to move your text*/
+p{
+    font-family: "Robot";
+}
+/*font family is used for seting a font for your element but you can also put many in the same font 
+family you can put multiple fonts so if a browser doesn't support the first one it will select the second one
+also you can copy a font from your browser and paste it in your html element*/
