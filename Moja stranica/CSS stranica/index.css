@@ -13,10 +13,11 @@ h1 {
 
 h2{
 font-family:"Open+Sans";
-color:white
+color:black;
 }
 h3{
-
+font-family: 'Courier New', Courier, monospace;
+color: black;
 }
 
 .top-container {

@@ -1,0 +1,28 @@
+body{
+    background-color: #3C2A21;
+}
+.top{
+    margin: 0;
+}
+
+.header{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: white;
+}
+.mastery{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 450px;
+}
+.midd{
+    background-color: gold;
+    position: absolute;
+    top: 550px;
+    display: block;
+}
+h2{
+    display: block;
+}
+
