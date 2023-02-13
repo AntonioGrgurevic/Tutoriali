@@ -50,8 +50,10 @@ div {
 /*padding is space between text and the edge of the element*/
 div {
   margin: 20px;
+  margin: auto;
 }
 /*margin is space outside your element*/
+/*margin auto will herizontally center your text*/
 p {
   text-decoration: underline;
 }
@@ -118,3 +120,10 @@ ul {
   line-height: 10;
 }
 /*you can use line-height to put space between list(li) */
+a{
+  font-weight: normal;
+}
+/*font-weight is used to set how thick or thin text will be*/
+.bik{
+
+}

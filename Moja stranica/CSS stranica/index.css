@@ -2,54 +2,52 @@ body {
   text-align: center;
   margin: 0;
   font-family: "Roboto", Arial;
+  font-size: 200%;
 }
 
 h1 {
-  margin: 0 auto;
+  margin-top: 100px;
   position: relative;
-  color: red;
+  font-size: 100px;
+  color: #66BFBF;
   font-family: Helvetica,Arial;
+  line-height: 2;
 }
 
 h2{
 font-family:"Open+Sans";
-color:black;
+color:#66BFBF;
+font-size: 2.5rem;
+font-weight: normal;
 }
 h3{
 font-family: 'Courier New', Courier, monospace;
-color: black;
+color: #11999E;
 }
 
 .top-container {
   background-image: url("../Pictures/firecircle.jpg");
 }
-.bird {
-  position: relative;
-  bottom: 500px;
-  width: 2000px;
-  height: 2000px;
-  left: 150px;
-}
 
 .gram {
   text-decoration: underline;
-  color: red;
+  color: #66BFBF;
+  font-size: 50px;
+  font-weight: normal;
 }
-.bot-cloud {
-  position: absolute;
+a{
+  color:#11999E;
 }
-.sound {
-  position: relative;
-  margin: 0;
-  bottom: 1200px;
-  left: 100px;
+.skill-row{
+  width: 50%;
+ margin: 100px auto;
+ text-align: left;
+ line-height: 2;
 }
-.mtxt {
-  font-size: 200%;
-  font-weight: bold;
-  position: absolute;
-  color: white;
-  bottom: 400px;
-  left: 925px;
-  top: 760px;
+.skills{
+  width: 50%;
+}
+.brainmf{
+  width: 50%;
+  float: left;
 }

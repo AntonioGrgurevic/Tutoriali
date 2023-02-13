@@ -66,20 +66,22 @@
   background-color: #0b2728;
 }
 .Erlink {
-  text-decoration: underline;
+  text-decoration: none !important;
   color: #f9f2ba;
 }
 .Erlink:hover {
   background-color: gray;
 }
 .Fslink:link {
-  text-decoration: underline;
+  text-decoration: none !important;
+  color: #f9f2ba;
 }
 .Fslink:hover {
   background-color: gray;
 }
 .Fslink:visited {
   color: #f9f2ba;
+  text-decoration: none !important;
 }
 .eldenlist {
   line-height: 5;
@@ -115,7 +117,7 @@
   font-family: "New Rocker", cursive;
 }
 .Bloodlink {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .Bloodlink:hover {
   background-color: black;
@@ -124,7 +126,7 @@
   color: #69120f;
 }
 .Fslink2:link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .Fslink2:hover {
   background-color: black;
@@ -146,7 +148,43 @@
   position: relative;
   top: 20px;
 }
-@font-face {
-  font-family: DS3;
-  src: url(../moria-citadel.zip);
+.middtitle3{
+  background-color: #605424;
+  display: inline-block;
+  width: 110%;
+  position: relative;
+  top: 646px;
+  left: -8px;
+  font-size: 22px;
+}
+
+.DS3sectionimg{
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  border-radius: 5%;
+}
+.middtext3{
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 1000px;
+  font-size: 22px;
+  color: #372209;
+  background-color: #605424;
+}
+.DS3list{
+  line-height: 5;
+  font-family: 'Rye', cursive;
+}
+.DS3naslovtext{
+  font-family: 'Rye', cursive;;
+  position: relative;
+  left: 0px;
+  margin: 0;
+  color: #372209;
+}
+.SoulOfCinderOST{
+  position: relative;
+  top: 20px;
 }
